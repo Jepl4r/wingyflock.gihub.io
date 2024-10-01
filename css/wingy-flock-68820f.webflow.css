@@ -1,3 +1,22 @@
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
 .body {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -288,6 +307,151 @@
   background-color: #43464d;
 }
 
+.section-2 {
+  background-color: #b8b8b8;
+  border-radius: 0;
+}
+
+.container-2 {
+  background-color: #a78888;
+}
+
+.image-2 {
+  margin-top: 160px;
+  position: relative;
+}
+
+.navbar {
+  background-color: #ff8c2c;
+}
+
+.image-3 {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  top: 172px;
+  left: -150px;
+}
+
+.paragraph {
+  text-align: left;
+  margin-right: 450px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  position: relative;
+  top: -434px;
+  left: 300px;
+}
+
+.button-2 {
+  z-index: 20;
+  background-color: #3898ec00;
+  border-radius: 10px;
+  width: 165px;
+  height: 55px;
+  position: relative;
+  top: 195px;
+  left: 15px;
+}
+
+.nav-link-2 {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nav-link-3 {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container-4 {
+  position: relative;
+  bottom: 89px;
+}
+
+.slide {
+  position: relative;
+}
+
+.mask {
+  bottom: auto;
+}
+
+.section-3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: static;
+  bottom: -3px;
+}
+
+.slider {
+  background-color: #fff0;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  margin: -200px auto 0;
+  padding-top: 0;
+  top: 75px;
+  right: auto;
+}
+
+.icon-2 {
+  color: #000;
+  cursor: pointer;
+  background-color: #fff0;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.icon-3 {
+  color: #000;
+  background-color: #fff0;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.image-4 {
+  margin-left: auto;
+  position: fixed;
+  inset: 0%;
+}
+
+.image-5 {
+  box-sizing: border-box;
+  float: none;
+  clear: none;
+  aspect-ratio: auto;
+  object-fit: fill;
+  object-position: 50% 50%;
+  border-radius: 10px;
+  width: 230px;
+  position: relative;
+  left: 90px;
+  overflow: clip;
+}
+
+.slide-2 {
+  box-sizing: border-box;
+  object-fit: fill;
+}
+
+.slide-nav {
+  right: -10px;
+}
+
+.image-6 {
+  border-radius: 10px;
+  width: 230px;
+  position: relative;
+  left: 90px;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -334,6 +498,44 @@
   .menu-button.w--open {
     color: #fff;
     background-color: #a6b1bf;
+  }
+
+  .image-2 {
+    margin-top: 160px;
+    transition: opacity .2s;
+  }
+
+  .image-3 {
+    box-sizing: border-box;
+    object-fit: fill;
+    position: relative;
+    top: 173px;
+    overflow: clip;
+  }
+
+  .paragraph {
+    top: -490px;
+  }
+
+  .button-2 {
+    top: 197px;
+  }
+
+  .container-4 {
+    position: relative;
+    bottom: 96px;
+  }
+
+  .slider {
+    margin-top: -250px;
+  }
+
+  .image-5 {
+    left: 90px;
+  }
+
+  .right-arrow, .left-arrow {
+    border-radius: 10px;
   }
 }
 
@@ -391,15 +593,187 @@
   .mobile-margin-top-10 {
     margin-top: 10px;
   }
+
+  .image-2 {
+    margin-top: 160px;
+  }
+
+  .image-3 {
+    top: -218px;
+    left: 300px;
+  }
+
+  .paragraph {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    direction: ltr;
+    text-align: left;
+    text-transform: none;
+    text-shadow: 0 1px 1px #0003;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 260px;
+    margin-bottom: auto;
+    margin-right: auto;
+    font-style: normal;
+    display: block;
+    position: relative;
+    top: -529px;
+    right: auto;
+  }
+
+  .container-4 {
+    position: relative;
+    bottom: 95px;
+  }
+
+  .slider {
+    margin-top: -285px;
+  }
+
+  .image-4 {
+    box-sizing: border-box;
+    aspect-ratio: auto;
+    object-fit: fill;
+    position: relative;
+  }
+
+  .image-5 {
+    left: 90px;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .body {
+    clear: none;
+    background-color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .logo {
+    text-align: left;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+
+  .app-store-button {
+    width: 149px;
+    height: 50px;
+  }
+
   .container {
     max-width: none;
   }
 
   .nav-menu-three {
     flex-direction: column;
+  }
+
+  .image-2 {
+    float: none;
+    clear: none;
+    vertical-align: baseline;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 45px;
+  }
+
+  .container-3 {
+    background-color: #6660;
+  }
+
+  .icon {
+    box-sizing: border-box;
+    aspect-ratio: auto;
+    color: #000;
+    -webkit-text-fill-color: inherit;
+    object-fit: fill;
+    background-color: #ff8c2c;
+    background-clip: content-box;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .navbar {
+    color: #ff8c2c;
+    background-color: #ff8c2c;
+  }
+
+  .image-3 {
+    float: none;
+    clear: none;
+    position: relative;
+    top: 222px;
+    left: -60px;
+  }
+
+  .paragraph {
+    margin-left: -269px;
+    margin-right: auto;
+    padding-top: 436px;
+    padding-left: 0;
+    padding-right: 0;
+    top: -530px;
+    left: 330px;
+  }
+
+  .button-2 {
+    top: 283px;
+    left: 80px;
+  }
+
+  .nav-link-2, .nav-link-3 {
+    -webkit-text-fill-color: inherit;
+    background-color: #ff8c2c;
+    background-clip: border-box;
+  }
+
+  .menu-button-2 {
+    color: #ff8c2c;
+    -webkit-text-fill-color: inherit;
+    background-color: #ff8c2c;
+    background-clip: content-box;
+  }
+
+  .nav-menu {
+    color: #ff8c2c;
+  }
+
+  .container-4 {
+    position: relative;
+    bottom: 120px;
+  }
+
+  .slider {
+    width: 320px;
+    height: 500px;
+    margin-top: -485px;
+  }
+
+  .image-5 {
+    left: 50px;
+  }
+
+  .right-arrow {
+    left: 270px;
+  }
+
+  .left-arrow {
+    left: -23px;
+  }
+
+  .image-6 {
+    left: 50px;
   }
 }
 
