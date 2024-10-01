@@ -530,6 +530,10 @@
   margin-top: 48px;
 }
 
+.heading-3, .text-block {
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
