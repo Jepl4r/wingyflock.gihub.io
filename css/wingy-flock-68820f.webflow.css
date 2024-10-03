@@ -382,8 +382,11 @@
 }
 
 .container-4 {
+  margin-bottom: -192px;
+  padding-top: 0;
+  padding-bottom: 0;
   position: relative;
-  bottom: 89px;
+  bottom: 110px;
 }
 
 .slide {
@@ -395,10 +398,10 @@
 }
 
 .section-3 {
-  margin-bottom: 0;
+  margin-bottom: -39px;
   padding-bottom: 0;
-  position: static;
-  bottom: -3px;
+  position: relative;
+  bottom: 0;
 }
 
 .slider {
@@ -534,6 +537,23 @@
   font-family: Ubuntu, Helvetica, sans-serif;
 }
 
+.section-4 {
+  position: relative;
+  bottom: 504px;
+}
+
+.container-5 {
+  position: relative;
+  left: 283px;
+}
+
+.image-7 {
+  border-radius: 10px;
+  width: 230px;
+  position: relative;
+  left: 90px;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -618,6 +638,13 @@
 
   .right-arrow, .left-arrow {
     border-radius: 10px;
+  }
+
+  .image-7 {
+    border-radius: 10px;
+    width: 230px;
+    position: relative;
+    left: 88px;
   }
 }
 
@@ -708,9 +735,21 @@
     right: auto;
   }
 
+  .button-2 {
+    background-color: #2a567c00;
+    position: relative;
+    top: -194px;
+    left: 465px;
+  }
+
   .container-4 {
     position: relative;
     bottom: 95px;
+  }
+
+  .section-3 {
+    margin-bottom: 1px;
+    bottom: 0;
   }
 
   .slider {
@@ -726,6 +765,12 @@
 
   .image-5 {
     left: 90px;
+  }
+
+  .image-6 {
+    float: none;
+    clear: none;
+    position: relative;
   }
 
   .paragraph-2 {
@@ -749,6 +794,33 @@
     padding-right: 85px;
     position: relative;
     left: 26px;
+  }
+
+  .section-4 {
+    top: -150px;
+    bottom: 383px;
+  }
+
+  .container-5 {
+    left: -167px;
+  }
+
+  .section-5 {
+    position: relative;
+    bottom: 4px;
+  }
+
+  .container-6 {
+    position: relative;
+    bottom: -71px;
+  }
+
+  .image-7 {
+    border-radius: 10px;
+    width: 230px;
+    display: inline-block;
+    position: relative;
+    left: 88px;
   }
 }
 
@@ -785,12 +857,15 @@
     float: none;
     clear: none;
     vertical-align: middle;
+    flex: 0 auto;
+    order: 0;
+    align-self: center;
     margin-top: 160px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     top: 0;
-    left: 5px;
+    left: auto;
   }
 
   .container-3 {
@@ -813,32 +888,51 @@
   .navbar {
     color: #ff8c2c;
     background-color: #ff8c2c;
+    flex-flow: row;
+    display: block;
+    position: static;
   }
 
   .image-3 {
     float: none;
     clear: none;
-    position: relative;
+    vertical-align: middle;
+    order: 0;
+    align-self: center;
+    display: block;
+    position: static;
     top: 350px;
-    left: 95px;
+    left: auto;
   }
 
   .paragraph {
-    margin-left: -269px;
+    text-align: left;
+    justify-content: center;
+    align-items: stretch;
+    margin-left: auto;
     margin-right: auto;
     padding-top: 503px;
     padding-left: 0;
     padding-right: 0;
+    display: flex;
     top: -487px;
-    left: 325px;
+    left: auto;
   }
 
   .button-2 {
-    background-color: #85b0d600;
-    display: block;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #38668d00;
+    flex-flow: column;
+    order: 0;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: center;
+    display: flex;
     position: relative;
-    top: 405px;
-    left: 95px;
+    top: 57px;
+    left: auto;
+    right: auto;
   }
 
   .nav-link-2, .nav-link-3 {
@@ -859,14 +953,24 @@
   }
 
   .container-4 {
+    flex-flow: column;
+    display: flex;
     position: relative;
     bottom: 120px;
+    left: auto;
+  }
+
+  .section-3 {
+    position: static;
   }
 
   .slider {
+    flex-flow: column;
     width: 320px;
     height: 500px;
     margin-top: -485px;
+    display: flex;
+    position: relative;
     top: 165px;
   }
 
@@ -930,6 +1034,46 @@
 
   .heading-2 {
     margin-top: 56px;
+  }
+
+  .section-4 {
+    flex-flow: column;
+    margin-left: auto;
+    display: flex;
+    position: relative;
+    top: -407px;
+  }
+
+  .container-5 {
+    flex-flow: column;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    position: static;
+    bottom: 632px;
+    left: auto;
+  }
+
+  .section-5 {
+    flex-flow: column;
+    display: flex;
+    position: static;
+    bottom: auto;
+  }
+
+  .container-6 {
+    flex-flow: column;
+    align-self: center;
+    display: flex;
+    position: static;
+  }
+
+  .mask-2 {
+    align-self: center;
+  }
+
+  .image-7 {
+    left: 45px;
   }
 }
 
